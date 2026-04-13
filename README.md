@@ -9,6 +9,12 @@ For details on the proposed framework, model architecture, training procedure, a
 
 ---
 
+## Hardware
+
+For hardware setup and synchronized data collection, see [esp32-csi-raspi-cam-sync-collector](https://github.com/Kim-JungBeom/esp32-csi-raspi-cam-sync-collector).
+
+---
+
 ## Repository Structure
 
 ```
