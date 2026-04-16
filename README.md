@@ -50,6 +50,11 @@ For hardware setup and synchronized data collection, see [esp32-csi-raspi-cam-sy
 3. Run the notebook
 
 ---
+## Citation
+
+If you used this system and it is relevant to your research, 
+please consider citing:
+---
 
 ## License
 
