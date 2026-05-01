@@ -54,7 +54,15 @@ For hardware setup and synchronized data collection, see [esp32-csi-raspi-cam-sy
 
 If you used this system and it is relevant to your research, 
 please consider citing:
-
+@misc{kim2026distributedmultiviewvisiononlyrssi,
+      title={Distributed Multi-View Vision-Only RSSI Estimation}, 
+      author={Jung-Beom Kim and Woongsup Lee},
+      year={2026},
+      eprint={2604.26738},
+      archivePrefix={arXiv},
+      primaryClass={cs.IT},
+      url={https://arxiv.org/abs/2604.26738}, 
+}
 ## License
 
 This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
