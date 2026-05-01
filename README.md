@@ -65,6 +65,11 @@ please consider citing:
       url={[https://arxiv.org/abs/2604.26738](https://arxiv.org/abs/2604.26738)}, 
 }
 ```
+## Contact
+
+For any questions or inquiries, please contact:
+**Jung-Beom Kim** ([kjung99@yonsei.ac.kr](mailto:kjung99@yonsei.ac.kr))
+
 ## License
 
 This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
