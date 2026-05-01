@@ -1,6 +1,6 @@
 # Distributed Multi-View Vision-Only RSSI Estimation
 
-Official implementation of **"Distributed Multi-View Vision-Only RSSI Estimation"** (IEEE Wireless Communications Letters)
+Official implementation of **"Distributed Multi-View Vision-Only RSSI Estimation"**
 
 > Jung-Beom Kim and Woongsup Lee  
 > Graduate School of Information, Yonsei University
