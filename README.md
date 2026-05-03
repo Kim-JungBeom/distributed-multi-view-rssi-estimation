@@ -2,9 +2,6 @@
 
 Official implementation of **"Distributed Multi-View Vision-Only RSSI Estimation"**
 
-> Jung-Beom Kim and Woongsup Lee  
-> Graduate School of Information, Yonsei University
-
 For details on the proposed framework, model architecture, training procedure, and experimental results, please refer to the paper.
 
 ---
