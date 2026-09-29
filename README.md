@@ -78,9 +78,7 @@ For hardware setup and synchronized data collection, see [esp32-csi-raspi-cam-sy
     ├── SinViT-D.ipynb         # Single-view baseline (embed_dim=96, depth=12)
     ├── SinViT-W.ipynb         # Single-view baseline (embed_dim=192, depth=6)
     ├── MulViT-TF.ipynb        # Proposed: shared ViT + Transformer fusion
-    ├── MulViT-TWDNN.ipynb     # Baseline: shared ViT + token-wise DNN fusion
-    ├── ResNet18-TF.ipynb      # Baseline: shared ResNet-18 + Transformer fusion
-    └── DeiT-Tiny-TF.ipynb     # Baseline: shared DeiT-Tiny + Transformer fusion
+    └── MulViT-TWDNN.ipynb     # Baseline: shared ViT + token-wise DNN fusion
 ```
 
 ---
@@ -120,7 +118,7 @@ In both phases, the model is trained by minimizing the **MSE loss**. Each model 
 ### Input Specification
 
 - **Image resolution**: `320 × 240` (preserves the full FoV); `224 × 224` for ResNet18-TF and DeiT-Tiny-TF
-- **Patch size**: `16 × 16` → **300 patch tokens** per image
+- **Patch size**: `16 × 16` → **300 patch tokens** per `320 × 240` image
 - **RSSI labels**: z-score standardization computed from the training set pooled over both scenes
 
 ### Hyperparameters
@@ -132,11 +130,10 @@ In both phases, the model is trained by minimizing the **MSE loss**. Each model 
 | Backbone LR scale (Phase 2) | 0.01 |
 | Weight decay | 0.01 |
 | Dropout | 0.1 |
-| Batch size | 16 |
+| Batch size | 64 |
 | Loss | MSE |
 | Phase 1 epochs | 40 |
 | Phase 2 epochs | 60 |
-| Random seed | 1 (deterministic cuDNN settings) |
 
 ---
 
